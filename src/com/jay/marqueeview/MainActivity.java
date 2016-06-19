@@ -44,7 +44,7 @@ public class MainActivity extends Activity {
 		
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
+			// TODO 点击MarqueeView能直接定位到点击时的TextView
 			Toast.makeText(MainActivity.this, ((TextView)v).getText(), Toast.LENGTH_SHORT).show();
 		}
 	};
